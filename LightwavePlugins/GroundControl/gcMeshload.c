@@ -22,7 +22,7 @@ email: ewinemiller @ digitalcarversguild.com (remove space)
 #include <lwobjimp.h>
 #include <lwsurf.h>
 #include <lwhost.h>
-#include <lwvolume.h>
+/* #include <lwvolume.h> */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -335,9 +335,10 @@ XCALL_( int ) gcMeshLoad( long version, GlobalFunc *global, LWObjectImport *loca
 	}
 
 	/* create the surface descriptions */
+	/* added 4 to the end of surface to satisfy 'version' req for 2018 sdk */
 
 	if ( local->result == LWOBJIM_OK )
-		local->surface( local->data, tag, NULL, 0, NULL );
+		local->surface( local->data, tag, NULL, 0, NULL, 4);
 
 	/* we're done */
 	local->done( local->data );

@@ -1,4 +1,4 @@
-/*  Ground Control Library - Elevation map tools
+  /*  Ground Control Library - Elevation map tools
     Copyright (C) 2003 Eric Winemiller
 
     This program is free software: you can redistribute it and/or modify

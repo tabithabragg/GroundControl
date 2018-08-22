@@ -94,7 +94,7 @@
     <TargetExt>.p</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>C:\Program Files\NewTek\LightWave_2015.3\support\plugins\</OutDir>
+    <OutDir>.\plugins</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
@@ -105,7 +105,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\Common;..\..\Lightwave9SDK\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Common;C:\git\lwsdk2018.0\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_x86;_WIN32;_CRT_SECURE_NO_DEPRECATE;WIN32;_MSWIN;LITTLE_ENDIAN;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -117,7 +117,7 @@
     <Link>
       <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <IgnoreSpecificDefaultLibraries>libcmt;msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ModuleDefinitionFile>..\..\Lightwave9SDK\source\serv.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>C:\git\lwsdk2018.0\source\serv.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>.\Debug/GroundControl.lib</ImportLibrary>
@@ -130,7 +130,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\Common;..\..\Lightwave9SDK\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Common;C:\git\lwsdk2018.0\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_x86;_WIN32;_CRT_SECURE_NO_DEPRECATE;WIN32;_MSWIN;GC_EXTENDED_ERROR_CHECKING;LITTLE_ENDIAN;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -142,7 +142,7 @@
     <Link>
       <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <IgnoreSpecificDefaultLibraries>libcmt;msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ModuleDefinitionFile>..\..\Lightwave9SDK\source\serv.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>C:\git\lwsdk2018.0\source\serv.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>.\Debug/GroundControl.lib</ImportLibrary>
@@ -152,7 +152,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\Common;..\..\Lightwave9SDK\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Common;C:\git\lwsdk2018.0\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_x86;_WIN32;_CRT_SECURE_NO_DEPRECATE;WIN32;_MSWIN;LITTLE_ENDIAN;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
@@ -163,7 +163,7 @@
       <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ModuleDefinitionFile>..\..\Lightwave9SDK\source\serv.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>C:\git\lwsdk2018.0\source\serv.def</ModuleDefinitionFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>NotSet</SubSystem>
       <OptimizeReferences />
@@ -179,7 +179,7 @@
     </Midl>
     <ClCompile>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\Common;..\..\Lightwave9SDK\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Common;C:\git\lwsdk2018.0\include;..\..\Library\GroundControl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_x86;_WIN32;_CRT_SECURE_NO_DEPRECATE;WIN32;_MSWIN;LITTLE_ENDIAN;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
@@ -190,7 +190,7 @@
       <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ModuleDefinitionFile>..\..\Lightwave9SDK\source\serv.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>C:\git\lwsdk2018.0\source\serv.def</ModuleDefinitionFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>NotSet</SubSystem>
       <OptimizeReferences />
@@ -204,10 +204,10 @@
     <ClCompile Include="..\..\Library\GroundControl\DCGBinaryTree.c" />
     <ClCompile Include="..\..\Library\GroundControl\GroundControlLib.c" />
     <ClCompile Include="..\..\Library\GroundControl\GroundControlLibInternal.c" />
-    <ClCompile Include="..\..\Lightwave9SDK\source\servmain.c" />
-    <ClCompile Include="..\..\Lightwave9SDK\source\shutdown.c" />
-    <ClCompile Include="..\..\Lightwave9SDK\source\startup.c" />
-    <ClCompile Include="..\..\Lightwave9SDK\source\username.c" />
+    <ClCompile Include="C:\git\lwsdk2018.0\source\servmain.c" />
+    <ClCompile Include="C:\git\lwsdk2018.0\source\shutdown.c" />
+    <ClCompile Include="C:\git\lwsdk2018.0\source\startup.c" />
+    <ClCompile Include="C:\git\lwsdk2018.0\source\username.c" />
     <ClCompile Include="gcImageLoad.c" />
     <ClCompile Include="gcMain.c" />
     <ClCompile Include="gcMeshLoad.c" />
