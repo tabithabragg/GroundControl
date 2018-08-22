@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  gcMeshLoad.c
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(147): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(157): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(158): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(159): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(160): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(163): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(164): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(169): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\git\dcg\lightwaveplugins\groundcontrol\gcmeshload.c(279): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     Creating library .\Release/GroundControl.lib and object .\Release/GroundControl.exp
+  GroundControl.vcxproj -> C:\git\dcg\LightwavePlugins\GroundControl\.\plugins\GroundControl.p
