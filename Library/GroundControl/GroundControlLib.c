@@ -33,6 +33,10 @@
 #define EARTH_METERS_PER_ARC_SECOND_POLAR 30.87f
 #define EARTH_METERS_PER_ARC_SECOND_EQUATOR 30.922f	
 #define FEET_TO_METERS 0.3048f
+/* are the above constants being used straight or are the calculations being
+ * done to account for curvature?   ie..   
+ * CURRENT ARCSECONDS_TO_METERS = EARTH_METERS_PER_ARC_SECOND_EQUATOR * ( COS(LONGITUDE) )
+ */
 
 
 
@@ -57,7 +61,8 @@ void ToUpper(char *s) {
 
 unsigned long flipIndex(const unsigned long index, const unsigned long max)
 {
-    return max - 1 - index;
+/* Add bounds checking here.  What if index exceeds max?  What are sane min/max values? */
+	return max - 1 - index;
 }
 
 int FileSize( const char * szFileName ) 
@@ -313,7 +318,7 @@ void gcInitialize(gcMapInfo *mapInfo)
 	privateData->useExternalElevation = GC_FALSE;
 	mapInfo->mesh = NULL;
 	mapInfo->description = NULL;
-	privateData->overrideMinElevation = 0;
+	privateData->overrideMinElevation = 0;  // should this be float?   MaxElevation is.
 	privateData->overrideMaxElevation = 1.0f;
 	privateData->overrideElevationMinMax = GC_FALSE;
 	privateData->progressCallback = NULL;
@@ -376,7 +381,7 @@ void gcCleanUp(gcMapInfo *mapInfo)
 		}
 		privateData->elevation = NULL;
 		if (privateData->demRunInfo) {
-			free (privateData->demRunInfo);
+			free (privateData->demRunInfo);  
 			privateData->demRunInfo = NULL;
 		}
 		free(privateData);
