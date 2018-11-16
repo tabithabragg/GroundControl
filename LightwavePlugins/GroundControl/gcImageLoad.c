@@ -142,7 +142,8 @@ XCALL_( int ) gcImageLoad( int version, GlobalFunc *global, LWImageLoaderLocal *
 			}			
 			free(buffer);
 			break;
-		}		case RGB_FP : {
+		}		
+		case RGB_FP : {
 			LWPixelRGBFP* buffer = NULL;
 			unsigned long east;
 			buffer = calloc( fullMapInfo.samples[GC_EAST], sizeof( LWPixelRGBFP ));
