@@ -11,9 +11,13 @@ This is always going to the be most recent build and may or may not be stable.  
 Scott
 
 
+
+
+
+
 Original plugin written by and open sourced by:
 
-# dcg
+dcg
 Digital Carvers Guild plug-ins
 http://www.digitalcarversguild.com
 https://github.com/ewinemiller/dcg
