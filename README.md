@@ -18,6 +18,7 @@ Scott
 Original plugin written by and open sourced by:
 
 dcg
+
 Digital Carvers Guild plug-ins
 http://www.digitalcarversguild.com
 https://github.com/ewinemiller/dcg
