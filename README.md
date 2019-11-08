@@ -2,6 +2,13 @@ The awesome folks at DCG have open sourced their great suite of plugins for Ligh
 
 This fork will initially be for the modifications needed to get GC working as designed and on par with 2015 functionality.  Once that's done, improvments and expansion are planned.   
 
+note: The plugin is located in LightwavePlugins -> GroundControl -> plugins.  
+
+If all you want is the plugin, download the groundcontrol.p file, copy it to wherever you store your plugins, and add it to Modeler and Layout.  The GUI comes up when you attempt to load a supported file type so there's no need to add a menu item to any of the Menu bars.
+
+https://github.com/scottbragg/GroundControl/tree/development/LightwavePlugins/GroundControl/plugins
+
+
 Scott
 
 
