@@ -8,6 +8,10 @@ The current version of the development / testing plugin you can play with is goi
 
 https://github.com/scottbragg/GroundControl/tree/development/LightwavePlugins/GroundControl/plugins
 
+If all you want is the plugin, download the groundcontrol.p file, copy it to wherever you store your plugins, and add it to Modeler and Layout. The GUI comes up when you attempt to load a supported file type so there's no need to add a menu item to any of the Menu bars.
+
+Scott
+
 The development branch is always going to the be most recent build and may or may not be stable.  Use at your own risk.  
 
 Scott
