@@ -1,7 +1,7 @@
 How to download the plugins: 
 
 The current version of the development / testing plugin you can play with is here: 
-https://github.com/scottbragg/GroundControl/tree/development/LightwavePlugins/GroundControl/plugins
+https://github.com/tabithabragg/GroundControl/tree/development/LightwavePlugins/GroundControl/plugins
 
 Download the groundcontrol.p  file and copy it to wherever you're putting your 3rd party plugins.  Add it to Layout and Modeler.  And you're good to go.   I'll write up documentation on this eventually.   
 
